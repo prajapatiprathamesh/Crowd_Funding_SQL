@@ -1,7 +1,7 @@
 # Crowdfunding Analytics Project
 
 ## Description
-This project involves analyzing data from a crowdfunding platform using SQL. The primary objective is to gain insights into various aspects of crowdfunding campaigns, including their outcomes, locations, categories, and success rates. The analysis helps identify trends and patterns to improve future campaigns.
+This project involves analyzing data from a crowdfunding platform using SQL and includes a Python script for importing data into SQL Workbench. The primary objective is to gain insights into various aspects of crowdfunding campaigns, including their outcomes, locations, categories, and success rates. The analysis helps identify trends and patterns to improve future campaigns.
 
 ## Features
 The project addresses the following analytical questions:
@@ -35,7 +35,18 @@ The project addresses the following analytical questions:
 
 ## Technologies Used
 - **Database Management System**: SQL
-- **Data Analysis Tools**: SQL queries to extract and aggregate data
+- **Programming Language**: Python
+- **Data Analysis Tools**: SQL queries to extract and aggregate data, Python for data import.
+
+## Data Import Using Python
+This project includes a Python script to facilitate importing data into SQL Workbench. The script automates the process of loading a dataset into the SQL environment, ensuring efficiency and accuracy.
+
+### Python Script
+The Python script accomplishes the following:
+- Reads the dataset from a file (e.g., CSV, Excel).
+- Establishes a connection to the SQL Workbench database.
+- Creates or updates the table schema as needed.
+- Inserts data into the table.
 
 ## Usage
 
